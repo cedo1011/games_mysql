@@ -6,4 +6,4 @@ import carloseduardo.models.Genero;
 
 public interface GeneroRepository extends CrudRepository<Genero, Integer> {
 
-}
+} 

@@ -6,13 +6,13 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Gêneros</title>
+        <title>Generos</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" />
     </head>
     <body>
         <main class="container">
-            <h1>Gêneros</h1>
-            <a class="btn btn-primary" href="/generos/insert">Adicionar Gênero</a>
+            <h1>Generos</h1>
+            <a class="btn btn-primary" href="/generos/insert">Adicionar Genero</a>
             <table class="table">
                 <tr>
                     <th>ID</th>
@@ -24,7 +24,7 @@
                         <td>${g.id}</td>
                         <td>${g.nome}</td>
                         <td>
-                            <a href="/generos/update/${g.id}">Editar</a> |
+                            <a href="/generos/update/${g.id}">Editar</a> | 
                             <a href="/generos/delete/${g.id}">Remover</a>
                         </td>
                     </tr>
