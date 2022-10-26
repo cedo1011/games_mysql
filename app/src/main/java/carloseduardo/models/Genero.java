@@ -15,7 +15,7 @@ public class Genero {
     private String nome;
 
     public int getId() {
-        return id;
+        return this.id;
     }
 
     public void setId(int id) {
